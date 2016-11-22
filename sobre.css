@@ -1,0 +1,91 @@
+
+body,html
+{
+	height:100%;padding:0px;margin:0px;
+	}
+body
+{
+	background: url("../img/espacio.jpg") repeat
+}
+#divizquierdo
+{
+	height: 150px;
+	width: 33.33%; 
+    text-align: center;	
+	float:left;
+	background: #F3F781;
+}	
+#divderecho
+{
+	height: 150px;
+	width: 33.33%; 
+    text-align: center;	
+	float:left;
+	background: #F3F781;
+}	
+#divluna
+{
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	}
+#lunaimg
+{
+	width:100%;
+}
+
+#navediv
+{
+	text-align:center;top:5%;width:33.33%;float:left;
+	}
+#naveimg
+{
+	height:20%;
+	
+	}
+#sobrediv
+{
+	height: 100px;
+	width: 33.33%;
+	float:left;
+	position: relative;
+	background: #F5A9BC;
+	margin: 2px auto;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 33.33%;
+	background-color: #ECE0F8;
+	position: fixed;
+	height: 136px;
+	overflow: auto;
+}
+li a
+{
+	display: block;
+	background-color: #F3F781;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a.active
+{
+	background-color: #4CAF50;
+	color: white;
+}
+li a:hover:not(.active)
+{
+	background-color: #555;
+	color: white;
+}
+li b
+{
+	display: block;
+	background-color: #F3F781;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
